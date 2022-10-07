@@ -1,0 +1,1457 @@
+2022-10-03T20:53:30.3163965+02:00  [WRN] No type was specified for the decimal property '"Discount"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'. (5c92c1c4)
+2022-10-03T20:53:30.3507348+02:00  [WRN] No type was specified for the decimal property '"UnitPrice"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'. (5c92c1c4)
+2022-10-03T20:53:42.1206055+02:00  [INF] Starting IdentityServer4 version "4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e" (8add0571)
+2022-10-03T20:53:42.1512832+02:00  [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. (553c312b)
+2022-10-03T20:53:42.1657120+02:00  [INF] Using the default authentication scheme "Identity.Application" for IdentityServer (4a54f457)
+2022-10-03T20:53:43.5065410+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-10-03T20:53:43.5122637+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-10-03T20:53:43.5271040+02:00  [INF] Content root path: "C:\Users\RitoVukela\source\repos\OnlineStore\OnlineStore" (b5d60022)
+2022-10-03T20:57:37.6782887+02:00 8000001a-0000-ee00-b63f-84710c7967bb [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration" (f7642de5)
+2022-10-03T20:57:37.9544489+02:00 80000265-0002-f900-b63f-84710c7967bb [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks" (f7642de5)
+2022-10-03T20:57:38.0721369+02:00 8000001c-0000-ee00-b63f-84710c7967bb [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token" (f7642de5)
+2022-10-03T20:57:39.8322724+02:00 8000001c-0000-ee00-b63f-84710c7967bb [INF] Credentials validated for username: "admin" (cb811aa7)
+2022-10-03T20:57:40.0017260+02:00 8000001c-0000-ee00-b63f-84710c7967bb [INF] Token request validation success, TokenRequestValidationLog { ClientId: "quickapp_spa", ClientName: null, GrantType: "password", Scopes: "email offline_access openid phone profile quickapp_api roles", AuthorizationCode: "********", RefreshToken: "********", UserName: "admin", AuthenticationContextReferenceClasses: null, Tenant: null, IdP: null, Raw: [("username": "admin"), ("password": "***REDACTED***"), ("client_id": "quickapp_spa"), ("grant_type": "password"), ("scope": "openid email phone profile offline_access roles quickapp_api")] } (3a073258)
+2022-10-03T21:22:06.3265612+02:00  [ERR] Error: src/app/app-routing.module.ts:47:4 - error TS18004: No value exists in scope for the shorthand property 'path'. Either declare one or provide an initializer.
+ (8fb4a767)
+2022-10-03T21:22:06.3381254+02:00  [ERR] 47   {path}
+ (6c0c9115)
+2022-10-03T21:22:06.4228765+02:00  [ERR]       ~~~~
+ (6dcae73d)
+2022-10-03T21:22:06.4309702+02:00  [ERR] Error: src/app/app-routing.module.ts:48:3 - error TS1005: ',' expected.
+ (9a27026e)
+2022-10-03T21:22:06.4392684+02:00  [ERR] 48   { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], data: { title: 'Customers' } },
+ (89388a37)
+2022-10-03T21:22:06.4514794+02:00  [ERR]      ~
+ (b4d73b5f)
+2022-10-03T21:22:09.7400515+02:00  [ERR] Error: src/app/app-routing.module.ts:48:3 - error TS1005: ',' expected.
+ (9a27026e)
+2022-10-03T21:22:09.7470458+02:00  [ERR] 48   { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], data: { title: 'Customers' } },
+ (89388a37)
+2022-10-03T21:22:09.7557608+02:00  [ERR]      ~
+ (b4d73b5f)
+2022-10-03T21:22:12.2384477+02:00  [ERR] Error: src/app/app-routing.module.ts:48:3 - error TS1005: ',' expected.
+ (9a27026e)
+2022-10-03T21:22:12.2560492+02:00  [ERR] 48   { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], data: { title: 'Customers' } },
+ (89388a37)
+2022-10-03T21:22:12.2618924+02:00  [ERR]      ~
+ (b4d73b5f)
+2022-10-03T21:22:14.9997930+02:00  [ERR] Error: src/app/app-routing.module.ts:47:17 - error TS18004: No value exists in scope for the shorthand property 'compo'. Either declare one or provide an initializer.
+ (44cbe092)
+2022-10-03T21:22:15.0057690+02:00  [ERR] 47   {path: 'app', compo}
+ (6b3a75fa)
+2022-10-03T21:22:15.0135309+02:00  [ERR]                    ~~~~~
+ (0377c9ed)
+2022-10-03T21:22:15.0170017+02:00  [ERR] Error: src/app/app-routing.module.ts:47:17 - error TS2322: Type '{ path: string; compo: any; }' is not assignable to type 'Route'.
+ (f53ec0af)
+2022-10-03T21:22:15.0208299+02:00  [ERR]   Object literal may only specify known properties, and 'compo' does not exist in type 'Route'.
+ (a5b0e1ed)
+2022-10-03T21:22:15.0315489+02:00  [ERR] 47   {path: 'app', compo}
+ (6b3a75fa)
+2022-10-03T21:22:15.0350971+02:00  [ERR]                    ~~~~~
+ (0377c9ed)
+2022-10-03T21:22:15.0449943+02:00  [ERR] Error: src/app/app-routing.module.ts:48:3 - error TS1005: ',' expected.
+ (9a27026e)
+2022-10-03T21:22:15.0482953+02:00  [ERR] 48   { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], data: { title: 'Customers' } },
+ (89388a37)
+2022-10-03T21:22:15.0517687+02:00  [ERR]      ~
+ (b4d73b5f)
+2022-10-03T21:22:18.4526596+02:00  [ERR] Error: src/app/app-routing.module.ts:47:17 - error TS18004: No value exists in scope for the shorthand property 'compone'. Either declare one or provide an initializer.
+ (9d944830)
+2022-10-03T21:22:18.5472349+02:00  [ERR] 47   {path: 'app', compone}
+ (59fc0b2b)
+2022-10-03T21:22:18.5659429+02:00  [ERR]                    ~~~~~~~
+ (4f258cd4)
+2022-10-03T21:22:18.5786621+02:00  [ERR] Error: src/app/app-routing.module.ts:47:17 - error TS2322: Type '{ path: string; compone: any; }' is not assignable to type 'Route'.
+ (d6fc965d)
+2022-10-03T21:22:18.7408396+02:00  [ERR]   Object literal may only specify known properties, but 'compone' does not exist in type 'Route'. Did you mean to write 'component'?
+ (7c783faf)
+2022-10-03T21:22:18.9274223+02:00  [ERR] 47   {path: 'app', compone}
+ (59fc0b2b)
+2022-10-03T21:22:19.2006732+02:00  [ERR]                    ~~~~~~~
+ (4f258cd4)
+2022-10-03T21:22:19.5783311+02:00  [ERR] Error: src/app/app-routing.module.ts:48:3 - error TS1005: ',' expected.
+ (9a27026e)
+2022-10-03T21:22:19.9512327+02:00  [ERR] 48   { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], data: { title: 'Customers' } },
+ (89388a37)
+2022-10-03T21:22:20.1439529+02:00  [ERR]      ~
+ (b4d73b5f)
+2022-10-03T21:22:22.1390715+02:00  [ERR] Error: src/app/app-routing.module.ts:47:28 - error TS1109: Expression expected.
+ (d8c0bc48)
+2022-10-03T21:22:22.7535557+02:00  [ERR] 47   {path: 'app', component: }
+ (5ce2fdd1)
+2022-10-03T21:22:23.3073967+02:00  [ERR]                               ~
+ (e5f4fbf9)
+2022-10-03T21:22:23.6832176+02:00  [ERR] Error: src/app/app-routing.module.ts:48:3 - error TS1005: ',' expected.
+ (9a27026e)
+2022-10-03T21:22:24.1700804+02:00  [ERR] 48   { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], data: { title: 'Customers' } },
+ (89388a37)
+2022-10-03T21:22:24.5302225+02:00  [ERR]      ~
+ (b4d73b5f)
+2022-10-03T21:22:24.6525432+02:00  [ERR] Error: ./src/app/app-routing.module.ts 38:31
+ (717ae7f2)
+2022-10-03T21:22:24.6731970+02:00  [ERR] Module parse failed: Unexpected token (38:31)
+ (51bf87d2)
+2022-10-03T21:22:24.8607511+02:00  [ERR] File was processed with these loaders:
+ (3619ec78)
+2022-10-03T21:22:24.9014206+02:00  [ERR]  * ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+ (830af868)
+2022-10-03T21:22:24.9160557+02:00  [ERR]  * ./node_modules/@ngtools/webpack/src/ivy/index.js
+ (57076512)
+2022-10-03T21:22:24.9220610+02:00  [ERR] You may need an additional loader to handle the result of these loaders.
+ (ba77677f)
+2022-10-03T21:22:24.9277312+02:00  [ERR] |     { path: '', component: HomeComponent, canActivate: [AuthGuard], data: { title: 'Home' } },
+ (6a18eb7b)
+2022-10-03T21:22:24.9308528+02:00  [ERR] |     { path: 'login', component: LoginComponent, data: { title: 'Login' } },
+ (8a147206)
+2022-10-03T21:22:24.9340166+02:00  [ERR] >     { path: 'app', component:  },
+ (eacbdf4f)
+2022-10-03T21:22:24.9388808+02:00  [ERR] |     { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], data: { title: 'Customers' } },
+ (9ef0637e)
+2022-10-03T21:22:24.9429518+02:00  [ERR] |     { path: 'products', component: ProductsComponent, canActivate: [AuthGuard], data: { title: 'Products' } },
+ (1dda0973)
+2022-10-03T21:22:24.9467929+02:00  [ERR] Error: src/app/app-routing.module.ts:47:28 - error TS1109: Expression expected.
+ (d8c0bc48)
+2022-10-03T21:22:24.9499098+02:00  [ERR] 47   {path: 'app', component: },
+ (470f49e0)
+2022-10-03T21:22:24.9534192+02:00  [ERR]                               ~
+ (e5f4fbf9)
+2022-10-03T21:22:24.9568174+02:00  [ERR] Error: ./src/app/app-routing.module.ts 38:31
+ (717ae7f2)
+2022-10-03T21:22:24.9624392+02:00  [ERR] Module parse failed: Unexpected token (38:31)
+ (51bf87d2)
+2022-10-03T21:22:24.9653147+02:00  [ERR] File was processed with these loaders:
+ (3619ec78)
+2022-10-03T21:22:24.9689673+02:00  [ERR]  * ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+ (830af868)
+2022-10-03T21:22:24.9720368+02:00  [ERR]  * ./node_modules/@ngtools/webpack/src/ivy/index.js
+ (57076512)
+2022-10-03T21:22:24.9777664+02:00  [ERR] You may need an additional loader to handle the result of these loaders.
+ (ba77677f)
+2022-10-03T21:22:24.9809059+02:00  [ERR] |     { path: '', component: HomeComponent, canActivate: [AuthGuard], data: { title: 'Home' } },
+ (6a18eb7b)
+2022-10-03T21:22:24.9842544+02:00  [ERR] |     { path: 'login', component: LoginComponent, data: { title: 'Login' } },
+ (8a147206)
+2022-10-03T21:22:24.9888099+02:00  [ERR] >     { path: 'app', component:  },
+ (eacbdf4f)
+2022-10-03T21:22:24.9941463+02:00  [ERR] |     { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], data: { title: 'Customers' } },
+ (9ef0637e)
+2022-10-03T21:22:24.9982608+02:00  [ERR] |     { path: 'products', component: ProductsComponent, canActivate: [AuthGuard], data: { title: 'Products' } },
+ (1dda0973)
+2022-10-03T21:22:30.9256365+02:00  [ERR] Error: src/app/app-routing.module.ts:47:28 - error TS2304: Cannot find name 'Auth'.
+ (387ece65)
+2022-10-03T21:22:30.9810207+02:00  [ERR] 47   {path: 'app', component: Auth},
+ (96c7b5c7)
+2022-10-03T21:22:31.0135445+02:00  [ERR]                               ~~~~
+ (b2871f69)
+2022-10-03T21:22:34.8123240+02:00  [ERR] Error: src/app/app-routing.module.ts:47:28 - error TS2304: Cannot find name 'Authentica'.
+ (37baf951)
+2022-10-03T21:22:34.8156383+02:00  [ERR] 47   {path: 'app', component: Authentica},
+ (1761d2b4)
+2022-10-03T21:22:34.8182115+02:00  [ERR]                               ~~~~~~~~~~
+ (d70055d5)
+2022-10-03T21:22:37.1130595+02:00  [ERR] Error: src/app/app-routing.module.ts:47:28 - error TS2304: Cannot find name 'Authenticae'.
+ (39407a9e)
+2022-10-03T21:22:37.1175059+02:00  [ERR] 47   {path: 'app', component: Authenticae},
+ (b5fe538a)
+2022-10-03T21:22:37.1304153+02:00  [ERR]                               ~~~~~~~~~~~
+ (dd2bdc5d)
+2022-10-03T21:22:40.2209930+02:00  [ERR] Error: src/app/app-routing.module.ts:47:28 - error TS2304: Cannot find name 'Authentica'.
+ (37baf951)
+2022-10-03T21:22:40.2279801+02:00  [ERR] 47   {path: 'app', component: Authentica},
+ (1761d2b4)
+2022-10-03T21:22:40.2358752+02:00  [ERR]                               ~~~~~~~~~~
+ (d70055d5)
+2022-10-03T21:22:45.6041582+02:00  [ERR] Error: src/app/app-routing.module.ts:47:28 - error TS2304: Cannot find name 'AuthenticatedLa'.
+ (ab088698)
+2022-10-03T21:22:45.6152329+02:00  [ERR] 47   {path: 'app', component: AuthenticatedLa},
+ (256698e5)
+2022-10-03T21:22:45.6205448+02:00  [ERR]                               ~~~~~~~~~~~~~~~
+ (d9eaea98)
+2022-10-03T21:22:59.5035334+02:00  [ERR] Error: src/app/app-routing.module.ts:48:58 - error TS1005: ',' expected.
+ (b1053308)
+2022-10-03T21:22:59.5150272+02:00  [ERR] 48   { path: 'app', component: AuthenticatedLayoutComponent childre},
+ (55b916da)
+2022-10-03T21:22:59.5272669+02:00  [ERR]                                                             ~~~~~~~
+ (c0c4b4ee)
+2022-10-03T21:22:59.5311794+02:00  [ERR] Error: src/app/app-routing.module.ts:48:58 - error TS18004: No value exists in scope for the shorthand property 'childre'. Either declare one or provide an initializer.
+ (b7f90e5c)
+2022-10-03T21:22:59.5353087+02:00  [ERR] 48   { path: 'app', component: AuthenticatedLayoutComponent childre},
+ (55b916da)
+2022-10-03T21:22:59.5386966+02:00  [ERR]                                                             ~~~~~~~
+ (c0c4b4ee)
+2022-10-03T21:22:59.5459197+02:00  [ERR] Error: src/app/app-routing.module.ts:48:58 - error TS2322: Type '{ path: string; component: typeof AuthenticatedLayoutComponent; childre: any; }' is not assignable to type 'Route'.
+ (714b2dfe)
+2022-10-03T21:22:59.5714163+02:00  [ERR]   Object literal may only specify known properties, but 'childre' does not exist in type 'Route'. Did you mean to write 'children'?
+ (4c4226c8)
+2022-10-03T21:22:59.5783072+02:00  [ERR] 48   { path: 'app', component: AuthenticatedLayoutComponent childre},
+ (55b916da)
+2022-10-03T21:22:59.5818245+02:00  [ERR]                                                             ~~~~~~~
+ (c0c4b4ee)
+2022-10-03T21:23:06.6577056+02:00  [ERR] Error: src/app/app-routing.module.ts:48:60 - error TS18004: No value exists in scope for the shorthand property 'childre'. Either declare one or provide an initializer.
+ (a62d8b91)
+2022-10-03T21:23:06.6609631+02:00  [ERR] 48   { path: 'app', component: AuthenticatedLayoutComponent , childre},
+ (c0f32299)
+2022-10-03T21:23:06.6683643+02:00  [ERR]                                                               ~~~~~~~
+ (ed01a3e3)
+2022-10-03T21:23:06.6743254+02:00  [ERR] Error: src/app/app-routing.module.ts:48:60 - error TS2322: Type '{ path: string; component: typeof AuthenticatedLayoutComponent; childre: any; }' is not assignable to type 'Route'.
+ (0f8f87b7)
+2022-10-03T21:23:06.6780969+02:00  [ERR]   Object literal may only specify known properties, but 'childre' does not exist in type 'Route'. Did you mean to write 'children'?
+ (4c4226c8)
+2022-10-03T21:23:06.6959494+02:00  [ERR] 48   { path: 'app', component: AuthenticatedLayoutComponent , childre},
+ (c0f32299)
+2022-10-03T21:23:06.7106344+02:00  [ERR]                                                               ~~~~~~~
+ (ed01a3e3)
+2022-10-03T21:23:08.0832216+02:00  [ERR] Error: src/app/app-routing.module.ts:48:60 - error TS18004: No value exists in scope for the shorthand property 'children'. Either declare one or provide an initializer.
+ (d4beb75c)
+2022-10-03T21:23:08.0864542+02:00  [ERR] 48   { path: 'app', component: AuthenticatedLayoutComponent , children},
+ (d46778cc)
+2022-10-03T21:23:08.0914401+02:00  [ERR]                                                               ~~~~~~~~
+ (42fd2dc8)
+2022-10-03T21:23:51.8780583+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:84:12 - error NG5002: Opening tag "router-outl" not terminated.
+ (9b77f452)
+2022-10-03T21:23:52.0117579+02:00  [ERR] 84            <router-outl
+ (5b627c93)
+2022-10-03T21:23:52.0194617+02:00  [ERR]               ~~~~~~~~~~~~
+ (9ead034a)
+2022-10-03T21:23:52.0374054+02:00  [ERR] 85         </div>
+ (f37e8909)
+2022-10-03T21:23:52.1456954+02:00  [ERR]    ~~~~~~~~
+ (555ac2bb)
+2022-10-03T21:23:52.1512289+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:23:52.1648220+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:23:52.1774609+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:23:52.1814815+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:23:53.2123866+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:85:9 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (00a58cd5)
+2022-10-03T21:23:53.2158053+02:00  [ERR] 85         </div>
+ (f37e8909)
+2022-10-03T21:23:53.2222173+02:00  [ERR]            ~~~~~~
+ (f6660d45)
+2022-10-03T21:23:53.2259185+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:23:53.2316692+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:23:53.2375229+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:23:53.2446029+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:23:53.2474885+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:86:5 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (85111693)
+2022-10-03T21:23:53.2511376+02:00  [ERR] 86     </div>
+ (6982cf4c)
+2022-10-03T21:23:53.3182407+02:00  [ERR]        ~~~~~~
+ (bd48bc5d)
+2022-10-03T21:23:53.3262085+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:23:53.3383215+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:23:53.3416176+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:23:53.3443479+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:23:53.3497393+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:87:1 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (999c2e93)
+2022-10-03T21:23:53.3540951+02:00  [ERR] 87 </div>
+ (9583a594)
+2022-10-03T21:23:53.3585286+02:00  [ERR]    ~~~~~~
+ (6ccf8613)
+2022-10-03T21:23:53.3646628+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:3m16
+ (db863fe7)
+2022-10-03T21:23:53.3679500+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:23:53.3722789+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:23:53.3762846+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:05.3140436+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:12:23 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (b1451ccb)
+2022-10-03T21:26:05.3179770+02:00  [ERR] 12           <div *ngIf="isUserLoggedIn" class="app-component collapse navbar-collapse menuItemsContainer">
+ (8aa38b51)
+2022-10-03T21:26:05.3228826+02:00  [ERR]                          ~~~~~~~~~~~~~~
+ (5a28cda1)
+2022-10-03T21:26:05.3260560+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:05.3297495+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:05.3327172+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:05.3393374+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:05.3423147+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:50:24 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (b9b57869)
+2022-10-03T21:26:05.3450972+02:00  [ERR] 50           <div *ngIf="!isUserLoggedIn && router.isActive('/about', false)" class="app-component collapse navbar-collapse menuItemsContainer">
+ (4951a758)
+2022-10-03T21:26:05.3491759+02:00  [ERR]                           ~~~~~~~~~~~~~~
+ (1fe9588d)
+2022-10-03T21:26:05.3544738+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:05.3573412+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:05.3607938+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:05.3643415+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:05.3706624+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:50:42 - error TS2339: Property 'router' does not exist on type 'AuthenticatedLayoutComponent'.
+ (92b22a2d)
+2022-10-03T21:26:05.3730947+02:00  [ERR] 50           <div *ngIf="!isUserLoggedIn && router.isActive('/about', false)" class="app-component collapse navbar-collapse menuItemsContainer">
+ (4951a758)
+2022-10-03T21:26:05.3771001+02:00  [ERR]                                             ~~~~~~
+ (74f9456d)
+2022-10-03T21:26:05.3804789+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:05.3880771+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:05.3911700+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:05.3943761+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:05.4005276+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:57:24 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (bbdda0ba)
+2022-10-03T21:26:05.4079021+02:00  [ERR] 57           <div *ngIf="!isUserLoggedIn && !router.isActive('/about', false) || false" class="app-component collapse navbar-collapse menuItemsContainer">
+ (0790a618)
+2022-10-03T21:26:05.4109110+02:00  [ERR]                           ~~~~~~~~~~~~~~
+ (1fe9588d)
+2022-10-03T21:26:05.4141864+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:05.4175555+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:05.4219777+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:05.4256560+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:05.4318784+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:57:43 - error TS2339: Property 'router' does not exist on type 'AuthenticatedLayoutComponent'.
+ (0d6159e1)
+2022-10-03T21:26:05.4345960+02:00  [ERR] 57           <div *ngIf="!isUserLoggedIn && !router.isActive('/about', false) || false" class="app-component collapse navbar-collapse menuItemsContainer">
+ (0790a618)
+2022-10-03T21:26:05.4422285+02:00  [ERR]                                              ~~~~~~
+ (41ba5c8d)
+2022-10-03T21:26:05.4462157+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:05.4491052+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:05.4524737+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:05.4585963+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:05.4621781+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:6:52 - error TS2339: Property 'appTitle' does not exist on type 'AuthenticatedLayoutComponent'.
+ (8c6dd4a3)
+2022-10-03T21:26:05.4648137+02:00  [ERR] 6             <span class="app-component appTitle">{appTitle}</span>
+ (98cecaf6)
+2022-10-03T21:26:05.4714292+02:00  [ERR]                                                      ~~~~~~~~
+ (0f68559f)
+2022-10-03T21:26:05.4746542+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:05.4781120+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:05.4809808+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:05.4837651+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:47.3224610+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:14:23 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (b2329e0a)
+2022-10-03T21:26:47.3258097+02:00  [ERR] 14           <div *ngIf="isUserLoggedIn" class="app-component collapse navbar-collapse menuItemsContainer">
+ (dc8dd7e8)
+2022-10-03T21:26:47.3299567+02:00  [ERR]                          ~~~~~~~~~~~~~~
+ (5a28cda1)
+2022-10-03T21:26:47.3340696+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:47.3370543+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:47.3398736+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:47.3430435+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:47.3468098+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:52:24 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (549680f6)
+2022-10-03T21:26:47.3497996+02:00  [ERR] 52           <div *ngIf="!isUserLoggedIn && router.isActive('/about', false)" class="app-component collapse navbar-collapse menuItemsContainer">
+ (9bd5612d)
+2022-10-03T21:26:47.3527802+02:00  [ERR]                           ~~~~~~~~~~~~~~
+ (1fe9588d)
+2022-10-03T21:26:47.3557634+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:47.3616473+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:47.3654576+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:47.3683323+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:47.3713086+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:52:42 - error TS2339: Property 'router' does not exist on type 'AuthenticatedLayoutComponent'.
+ (37731b33)
+2022-10-03T21:26:47.3762219+02:00  [ERR] 52           <div *ngIf="!isUserLoggedIn && router.isActive('/about', false)" class="app-component collapse navbar-collapse menuItemsContainer">
+ (9bd5612d)
+2022-10-03T21:26:47.3802897+02:00  [ERR]                                             ~~~~~~
+ (74f9456d)
+2022-10-03T21:26:47.3853064+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:47.3897985+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:47.3933985+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:47.4068950+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:47.4176184+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:59:24 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (da83323b)
+2022-10-03T21:26:47.4271746+02:00  [ERR] 59           <div *ngIf="!isUserLoggedIn && !router.isActive('/about', false) || false" class="app-component collapse navbar-collapse menuItemsContainer">
+ (dcefc46b)
+2022-10-03T21:26:47.4326029+02:00  [ERR]                           ~~~~~~~~~~~~~~
+ (1fe9588d)
+2022-10-03T21:26:47.4451018+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:47.4610292+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:47.4733155+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:47.4782971+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:47.4842254+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:59:43 - error TS2339: Property 'router' does not exist on type 'AuthenticatedLayoutComponent'.
+ (93a14ad5)
+2022-10-03T21:26:47.4875442+02:00  [ERR] 59           <div *ngIf="!isUserLoggedIn && !router.isActive('/about', false) || false" class="app-component collapse navbar-collapse menuItemsContainer">
+ (dcefc46b)
+2022-10-03T21:26:47.4909505+02:00  [ERR]                                              ~~~~~~
+ (41ba5c8d)
+2022-10-03T21:26:47.4940414+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:47.5004220+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:47.5037013+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:47.5069207+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:26:47.5100904+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:8:52 - error TS2339: Property 'appTitle' does not exist on type 'AuthenticatedLayoutComponent'.
+ (509070a9)
+2022-10-03T21:26:47.5162955+02:00  [ERR] 8             <span class="app-component appTitle">{appTitle}</span>
+ (7b5e30aa)
+2022-10-03T21:26:47.5195244+02:00  [ERR]                                                      ~~~~~~~~
+ (0f68559f)
+2022-10-03T21:26:47.5228311+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:26:47.5269417+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:26:47.5548797+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:26:47.5605677+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:13.1678085+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:14:23 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (b2329e0a)
+2022-10-03T21:27:13.3696450+02:00  [ERR] 14           <div *ngIf="isUserLoggedIn" class="app-component collapse navbar-collapse menuItemsContainer">
+ (dc8dd7e8)
+2022-10-03T21:27:13.3806528+02:00  [ERR]                          ~~~~~~~~~~~~~~
+ (5a28cda1)
+2022-10-03T21:27:13.3877370+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:13.3910847+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:13.3952223+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:13.4063866+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:13.4361214+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:153:17 - error TS2339: Property 'shouldShowLoginModal' does not exist on type 'AuthenticatedLayoutComponent'.
+ (e4e2fe81)
+2022-10-03T21:27:13.4405714+02:00  [ERR] 153     <div *ngIf="shouldShowLoginModal" class="modal fade login-control" bsModal #loginModal="bs-modal" (onShown)="onLoginModalShown()" (onHidden)="onLoginModalHidden()" (onHide)="onLoginModalHide()"
+ (47846d4a)
+2022-10-03T21:27:13.4435000+02:00  [ERR]                     ~~~~~~~~~~~~~~~~~~~~
+ (0a545a3e)
+2022-10-03T21:27:13.4525766+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:13.4759446+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:13.5018942+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:13.5197480+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:13.5242891+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:52:24 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (549680f6)
+2022-10-03T21:27:13.5274489+02:00  [ERR] 52           <div *ngIf="!isUserLoggedIn && router.isActive('/about', false)" class="app-component collapse navbar-collapse menuItemsContainer">
+ (9bd5612d)
+2022-10-03T21:27:13.5346402+02:00  [ERR]                           ~~~~~~~~~~~~~~
+ (1fe9588d)
+2022-10-03T21:27:13.5380011+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:13.5468836+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:13.5562174+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:13.6119320+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:13.9764302+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:52:42 - error TS2339: Property 'router' does not exist on type 'AuthenticatedLayoutComponent'.
+ (37731b33)
+2022-10-03T21:27:14.1767000+02:00  [ERR] 52           <div *ngIf="!isUserLoggedIn && router.isActive('/about', false)" class="app-component collapse navbar-collapse menuItemsContainer">
+ (9bd5612d)
+2022-10-03T21:27:14.3606487+02:00  [ERR]                                             ~~~~~~
+ (74f9456d)
+2022-10-03T21:27:14.5729550+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:14.8225753+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:14.8298239+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:14.8376885+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:14.8439953+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:59:24 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (da83323b)
+2022-10-03T21:27:14.8478164+02:00  [ERR] 59           <div *ngIf="!isUserLoggedIn && !router.isActive('/about', false) || false" class="app-component collapse navbar-collapse menuItemsContainer">
+ (dcefc46b)
+2022-10-03T21:27:14.8534346+02:00  [ERR]                           ~~~~~~~~~~~~~~
+ (1fe9588d)
+2022-10-03T21:27:14.8579462+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:14.8614413+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:14.8679949+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:14.8722897+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:14.8788037+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:59:43 - error TS2339: Property 'router' does not exist on type 'AuthenticatedLayoutComponent'.
+ (93a14ad5)
+2022-10-03T21:27:14.8906532+02:00  [ERR] 59           <div *ngIf="!isUserLoggedIn && !router.isActive('/about', false) || false" class="app-component collapse navbar-collapse menuItemsContainer">
+ (dcefc46b)
+2022-10-03T21:27:14.8948980+02:00  [ERR]                                              ~~~~~~
+ (41ba5c8d)
+2022-10-03T21:27:14.9037513+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:14.9074105+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:14.9108760+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:14.9173152+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:14.9236643+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:8:52 - error TS2339: Property 'appTitle' does not exist on type 'AuthenticatedLayoutComponent'.
+ (509070a9)
+2022-10-03T21:27:14.9275834+02:00  [ERR] 8             <span class="app-component appTitle">{appTitle}</span>
+ (7b5e30aa)
+2022-10-03T21:27:14.9326367+02:00  [ERR]                                                      ~~~~~~~~
+ (0f68559f)
+2022-10-03T21:27:14.9446618+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:14.9538245+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:14.9610735+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:14.9726727+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:16.1843002+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:15:25 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (1bd2b1f4)
+2022-10-03T21:27:16.1899013+02:00  [ERR] 15             <div *ngIf="isUserLoggedIn" class="app-component collapse navbar-collapse menuItemsContainer">
+ (b34f207b)
+2022-10-03T21:27:16.1939427+02:00  [ERR]                            ~~~~~~~~~~~~~~
+ (3dedd239)
+2022-10-03T21:27:16.1988554+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:16.2032772+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:16.2100921+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:16.2191610+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:16.2263563+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:163:17 - error TS2339: Property 'shouldShowLoginModal' does not exist on type 'AuthenticatedLayoutComponent'.
+ (c4e25271)
+2022-10-03T21:27:16.2293825+02:00  [ERR] 163     <div *ngIf="shouldShowLoginModal" class="modal fade login-control" bsModal #loginModal="bs-modal"
+ (1ca1b8b7)
+2022-10-03T21:27:16.2351385+02:00  [ERR]                     ~~~~~~~~~~~~~~~~~~~~
+ (0a545a3e)
+2022-10-03T21:27:16.2386841+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:16.2430619+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:16.2540848+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:16.2571197+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:16.2607373+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:57:26 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (29062848)
+2022-10-03T21:27:16.2664056+02:00  [ERR] 57             <div *ngIf="!isUserLoggedIn && router.isActive('/about', false)"
+ (c4c0774c)
+2022-10-03T21:27:16.2706781+02:00  [ERR]                             ~~~~~~~~~~~~~~
+ (f8009853)
+2022-10-03T21:27:16.2747377+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:16.2799401+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:16.2839162+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:16.2873331+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:16.2907701+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:57:44 - error TS2339: Property 'router' does not exist on type 'AuthenticatedLayoutComponent'.
+ (f05ee772)
+2022-10-03T21:27:16.2961897+02:00  [ERR] 57             <div *ngIf="!isUserLoggedIn && router.isActive('/about', false)"
+ (c4c0774c)
+2022-10-03T21:27:16.3014965+02:00  [ERR]                                               ~~~~~~
+ (5f24a722)
+2022-10-03T21:27:16.3067817+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:16.3122833+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:16.3172471+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:16.3204899+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:16.3260394+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:65:26 - error TS2339: Property 'isUserLoggedIn' does not exist on type 'AuthenticatedLayoutComponent'.
+ (23090499)
+2022-10-03T21:27:16.3292132+02:00  [ERR] 65             <div *ngIf="!isUserLoggedIn && !router.isActive('/about', false) || false"
+ (58e32552)
+2022-10-03T21:27:16.3337864+02:00  [ERR]                             ~~~~~~~~~~~~~~
+ (f8009853)
+2022-10-03T21:27:16.3375352+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:16.3427368+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:16.3462969+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:16.3500607+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:16.3536963+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:65:45 - error TS2339: Property 'router' does not exist on type 'AuthenticatedLayoutComponent'.
+ (cd00966c)
+2022-10-03T21:27:16.3588616+02:00  [ERR] 65             <div *ngIf="!isUserLoggedIn && !router.isActive('/about', false) || false"
+ (58e32552)
+2022-10-03T21:27:16.3621051+02:00  [ERR]                                                ~~~~~~
+ (9bdc667c)
+2022-10-03T21:27:16.3677861+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:16.3729080+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:16.3778020+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:16.3818899+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:16.3915844+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:8:56 - error TS2339: Property 'appTitle' does not exist on type 'AuthenticatedLayoutComponent'.
+ (130773c4)
+2022-10-03T21:27:16.3956333+02:00  [ERR] 8                 <span class="app-component appTitle">{appTitle}</span>
+ (811c70bf)
+2022-10-03T21:27:16.4002315+02:00  [ERR]                                                          ~~~~~~~~
+ (672a155d)
+2022-10-03T21:27:16.4053929+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:5:16
+ (321ca1a1)
+2022-10-03T21:27:16.4090144+02:00  [ERR]     5   templateUrl: './authenticated-layout.component.html',
+ (303606bb)
+2022-10-03T21:27:16.4124719+02:00  [ERR]                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (19a2755a)
+2022-10-03T21:27:16.4171264+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T21:27:35.5860944+02:00  [ERR] Error: src/app/components/app.component.html:3:1 - error NG5002: Unexpected character "EOF"
+ (32d5e4f3)
+2022-10-03T21:27:35.5969222+02:00  [ERR] 3 
+ (8d5937ec)
+2022-10-03T21:27:35.6001113+02:00  [ERR]   src/app/components/app.component.ts:27:16
+ (56ecd1df)
+2022-10-03T21:27:35.6083144+02:00  [ERR]     27   templateUrl: './app.component.html',
+ (911ead11)
+2022-10-03T21:27:35.6272513+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~
+ (14fd61c1)
+2022-10-03T21:27:35.6917121+02:00  [ERR]     Error occurs in the template of component AppComponent.
+ (0cf61b3a)
+2022-10-03T21:28:38.4155127+02:00  [ERR] Error: src/app/app.module.ts:113:5 - error NG6001: The class 'AuthenticatedLayoutComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+ (e0e45a80)
+2022-10-03T21:28:38.4241953+02:00  [ERR] 113     AuthenticatedLayoutComponent
+ (c031aad1)
+2022-10-03T21:28:38.4296107+02:00  [ERR]         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (25944666)
+2022-10-03T21:28:38.4325560+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:8:14
+ (66093214)
+2022-10-03T21:28:38.4457278+02:00  [ERR]     8 export class AuthenticatedLayoutComponent implements OnInit {
+ (9120e478)
+2022-10-03T21:28:38.5073240+02:00  [ERR]                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (dab9d1ed)
+2022-10-03T21:28:38.5103443+02:00  [ERR]     'AuthenticatedLayoutComponent' is declared here.
+ (f2793700)
+2022-10-03T21:28:38.5138440+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:115:82 - error TS2304: Cannot find name 'MessageSeverity'.
+ (4bfa63f5)
+2022-10-03T21:28:38.5168119+02:00  [ERR] 115         this.alertService.showMessage('Login', `Welcome back ${this.userName}!`, MessageSeverity.default);
+ (c38216bd)
+2022-10-03T21:28:38.5198690+02:00  [ERR]                                                                                      ~~~~~~~~~~~~~~~
+ (8946a24e)
+2022-10-03T21:28:38.5234630+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:139:63 - error TS2304: Cannot find name 'MessageSeverity'.
+ (8f5897b6)
+2022-10-03T21:28:38.5265350+02:00  [ERR] 139           this.alertService.showMessage('Session Ended!', '', MessageSeverity.default);
+ (0ab8672c)
+2022-10-03T21:28:38.5313224+02:00  [ERR]                                                                   ~~~~~~~~~~~~~~~
+ (e35b9b76)
+2022-10-03T21:28:38.5345149+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:172:116 - error TS2304: Cannot find name 'MessageSeverity'.
+ (d86b5fe9)
+2022-10-03T21:28:38.5386682+02:00  [ERR] 172             this.alertService.showStickyMessage('Load Error', 'Loading new notifications from the server failed!', MessageSeverity.error);
+ (8ce3c485)
+2022-10-03T21:28:38.5460458+02:00  [ERR]                                                                                                                        ~~~~~~~~~~~~~~~
+ (5364b9aa)
+2022-10-03T21:28:38.5520833+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:193:102 - error TS2304: Cannot find name 'MessageSeverity'.
+ (5a689dd6)
+2022-10-03T21:28:38.5555224+02:00  [ERR] 193             this.alertService.showMessage('Notification Error', 'Marking read notifications failed', MessageSeverity.error);
+ (5e5cce50)
+2022-10-03T21:28:38.5602319+02:00  [ERR]                                                                                                          ~~~~~~~~~~~~~~~
+ (f9b07d09)
+2022-10-03T21:28:38.5634537+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:201:22 - error TS2304: Cannot find name 'AlertDialog'.
+ (d9710c15)
+2022-10-03T21:28:38.5664316+02:00  [ERR] 201   showDialog(dialog: AlertDialog) {
+ (387061e9)
+2022-10-03T21:28:38.5696568+02:00  [ERR]                          ~~~~~~~~~~~
+ (ca63e0db)
+2022-10-03T21:28:38.5754441+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:203:5 - error TS2304: Cannot find name 'alertify'.
+ (4ed80b17)
+2022-10-03T21:28:38.5821371+02:00  [ERR] 203     alertify.set({
+ (5545c419)
+2022-10-03T21:28:38.5861452+02:00  [ERR]         ~~~~~~~~
+ (f15ac4ec)
+2022-10-03T21:28:38.5967643+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:211:12 - error TS2304: Cannot find name 'DialogType'.
+ (e4b61b1f)
+2022-10-03T21:28:38.6005706+02:00  [ERR] 211       case DialogType.alert:
+ (503243e8)
+2022-10-03T21:28:38.6149480+02:00  [ERR]                ~~~~~~~~~~
+ (2d24a121)
+2022-10-03T21:28:38.6183534+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:212:9 - error TS2304: Cannot find name 'alertify'.
+ (5de14e08)
+2022-10-03T21:28:38.6278958+02:00  [ERR] 212         alertify.alert(dialog.message);
+ (25e1d450)
+2022-10-03T21:28:38.6310065+02:00  [ERR]             ~~~~~~~~
+ (839e20f4)
+2022-10-03T21:28:38.6351021+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:215:12 - error TS2304: Cannot find name 'DialogType'.
+ (06f93211)
+2022-10-03T21:28:38.6428056+02:00  [ERR] 215       case DialogType.confirm:
+ (d51821c9)
+2022-10-03T21:28:38.6457903+02:00  [ERR]                ~~~~~~~~~~
+ (2d24a121)
+2022-10-03T21:28:38.6490963+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:216:9 - error TS2304: Cannot find name 'alertify'.
+ (da57bd7b)
+2022-10-03T21:28:38.6523573+02:00  [ERR] 216         alertify
+ (98079765)
+2022-10-03T21:28:38.6586590+02:00  [ERR]             ~~~~~~~~
+ (839e20f4)
+2022-10-03T21:28:38.6627307+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:22:4 - error TS2304: Cannot find name 'ViewChildren'.
+ (d827816d)
+2022-10-03T21:28:38.6662012+02:00  [ERR] 22   @ViewChildren('loginModal,loginControl')
+ (87b13607)
+2022-10-03T21:28:38.6693706+02:00  [ERR]       ~~~~~~~~~~~~
+ (bd6ffbd0)
+2022-10-03T21:28:38.6759153+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:228:12 - error TS2304: Cannot find name 'DialogType'.
+ (e4ce9bb5)
+2022-10-03T21:28:38.6794496+02:00  [ERR] 228       case DialogType.prompt:
+ (a1c2dc46)
+2022-10-03T21:28:38.6827307+02:00  [ERR]                ~~~~~~~~~~
+ (2d24a121)
+2022-10-03T21:28:38.6860803+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:229:9 - error TS2304: Cannot find name 'alertify'.
+ (ce8ac744)
+2022-10-03T21:28:38.6922098+02:00  [ERR] 229         alertify
+ (96673f27)
+2022-10-03T21:28:38.6950552+02:00  [ERR]             ~~~~~~~~
+ (839e20f4)
+2022-10-03T21:28:38.6984446+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:23:23 - error TS2304: Cannot find name 'QueryList'.
+ (0356a212)
+2022-10-03T21:28:38.7019249+02:00  [ERR] 23   modalLoginControls: QueryList<any>;
+ (52cb1303)
+2022-10-03T21:28:38.7107413+02:00  [ERR]                          ~~~~~~~~~
+ (471e3a78)
+2022-10-03T21:28:38.7139890+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:246:20 - error TS2304: Cannot find name 'AlertCommand'.
+ (345c33cb)
+2022-10-03T21:28:38.7170293+02:00  [ERR] 246   showToast(alert: AlertCommand) {
+ (1496e107)
+2022-10-03T21:28:38.7216571+02:00  [ERR]                        ~~~~~~~~~~~~
+ (36fd9655)
+2022-10-03T21:28:38.7245695+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:25:15 - error TS2304: Cannot find name 'ModalDirective'.
+ (57d393c6)
+2022-10-03T21:28:38.7278124+02:00  [ERR] 25   loginModal: ModalDirective;
+ (cb1922ed)
+2022-10-03T21:28:38.7309452+02:00  [ERR]                  ~~~~~~~~~~~~~~
+ (ef55cf3b)
+2022-10-03T21:28:38.7337732+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:256:25 - error TS2304: Cannot find name 'ToastOptions'.
+ (5a17df1a)
+2022-10-03T21:28:38.7396297+02:00  [ERR] 256     const toastOptions: ToastOptions = {
+ (b3561365)
+2022-10-03T21:28:38.7431067+02:00  [ERR]                             ~~~~~~~~~~~~
+ (68ba221b)
+2022-10-03T21:28:38.7463637+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:26:17 - error TS2304: Cannot find name 'LoginComponent'.
+ (a352c815)
+2022-10-03T21:28:38.7497031+02:00  [ERR] 26   loginControl: LoginComponent;
+ (42eeb515)
+2022-10-03T21:28:38.7534396+02:00  [ERR]                    ~~~~~~~~~~~~~~
+ (ab5f335b)
+2022-10-03T21:28:38.7575107+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:265:36 - error TS2304: Cannot find name 'ToastData'.
+ (5cc4c78c)
+2022-10-03T21:28:38.7608352+02:00  [ERR] 265       toastOptions.onAdd = (toast: ToastData) => {
+ (0c5a98c6)
+2022-10-03T21:28:38.7641633+02:00  [ERR]                                        ~~~~~~~~~
+ (78da2b59)
+2022-10-03T21:28:38.7681406+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:269:39 - error TS2304: Cannot find name 'ToastData'.
+ (1d3a0d16)
+2022-10-03T21:28:38.7734545+02:00  [ERR] 269       toastOptions.onRemove = (toast: ToastData) => {
+ (b88873fb)
+2022-10-03T21:28:38.7766163+02:00  [ERR]                                           ~~~~~~~~~
+ (2749ddf2)
+2022-10-03T21:28:38.7798267+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:289:12 - error TS2304: Cannot find name 'MessageSeverity'.
+ (57c79b85)
+2022-10-03T21:28:38.7847177+02:00  [ERR] 289       case MessageSeverity.default: this.toastaService.default(toastOptions); break;
+ (67fb6adf)
+2022-10-03T21:28:38.7893731+02:00  [ERR]                ~~~~~~~~~~~~~~~
+ (f1a80938)
+2022-10-03T21:28:38.7921544+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:290:12 - error TS2304: Cannot find name 'MessageSeverity'.
+ (0c3ef6d0)
+2022-10-03T21:28:38.7955984+02:00  [ERR] 290       case MessageSeverity.info: this.toastaService.info(toastOptions); break;
+ (9ded62aa)
+2022-10-03T21:28:38.7986478+02:00  [ERR]                ~~~~~~~~~~~~~~~
+ (f1a80938)
+2022-10-03T21:28:38.8047186+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:291:12 - error TS2304: Cannot find name 'MessageSeverity'.
+ (d91e26cd)
+2022-10-03T21:28:38.8104248+02:00  [ERR] 291       case MessageSeverity.success: this.toastaService.success(toastOptions); break;
+ (fce94f19)
+2022-10-03T21:28:38.8146759+02:00  [ERR]                ~~~~~~~~~~~~~~~
+ (f1a80938)
+2022-10-03T21:28:38.8180141+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:292:12 - error TS2304: Cannot find name 'MessageSeverity'.
+ (9946dfdd)
+2022-10-03T21:28:38.8228759+02:00  [ERR] 292       case MessageSeverity.error: this.toastaService.error(toastOptions); break;
+ (8a8ab345)
+2022-10-03T21:28:38.8257939+02:00  [ERR]                ~~~~~~~~~~~~~~~
+ (f1a80938)
+2022-10-03T21:28:38.8307706+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:293:12 - error TS2304: Cannot find name 'MessageSeverity'.
+ (e64baaf7)
+2022-10-03T21:28:38.8339255+02:00  [ERR] 293       case MessageSeverity.warn: this.toastaService.warning(toastOptions); break;
+ (64488963)
+2022-10-03T21:28:38.8381936+02:00  [ERR]                ~~~~~~~~~~~~~~~
+ (f1a80938)
+2022-10-03T21:28:38.8418089+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:294:12 - error TS2304: Cannot find name 'MessageSeverity'.
+ (ee821a44)
+2022-10-03T21:28:38.8450945+02:00  [ERR] 294       case MessageSeverity.wait: this.toastaService.wait(toastOptions); break;
+ (1886b269)
+2022-10-03T21:28:38.8483572+02:00  [ERR]                ~~~~~~~~~~~~~~~
+ (f1a80938)
+2022-10-03T21:28:38.8519173+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:323:50 - error TS2304: Cannot find name 'Permission'.
+ (e4ec1d61)
+2022-10-03T21:28:38.8561010+02:00  [ERR] 323     return this.accountService.userHasPermission(Permission.viewUsersPermission); // eg. viewCustomersPermission
+ (b284e0a9)
+2022-10-03T21:28:38.8599567+02:00  [ERR]                                                      ~~~~~~~~~~
+ (a5aaca49)
+2022-10-03T21:28:38.8645710+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:327:50 - error TS2304: Cannot find name 'Permission'.
+ (5f5d0ec6)
+2022-10-03T21:28:38.8680753+02:00  [ERR] 327     return this.accountService.userHasPermission(Permission.viewUsersPermission); // eg. viewProductsPermission
+ (598d91c6)
+2022-10-03T21:28:38.8731497+02:00  [ERR]                                                      ~~~~~~~~~~
+ (a5aaca49)
+2022-10-03T21:28:38.8763381+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:40:21 - error TS2304: Cannot find name 'LocalStoreManager'.
+ (66228f58)
+2022-10-03T21:28:38.8799149+02:00  [ERR] 40     storageManager: LocalStoreManager,
+ (f409a2dd)
+2022-10-03T21:28:38.8842153+02:00  [ERR]                        ~~~~~~~~~~~~~~~~~
+ (1f569f07)
+2022-10-03T21:28:38.8886033+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:40:5 - error NG2003: No suitable injection token for parameter 'storageManager' of class 'AuthenticatedLayoutComponent'.
+ (b5f5d726)
+2022-10-03T21:28:38.8932969+02:00  [ERR]   The type should reference a known declaration.
+ (b3c05cd4)
+2022-10-03T21:28:38.8971225+02:00  [ERR] 40     storageManager: LocalStoreManager,
+ (f409a2dd)
+2022-10-03T21:28:38.9006567+02:00  [ERR]        ~~~~~~~~~~~~~~
+ (44e63b46)
+2022-10-03T21:28:38.9048385+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:40:21
+ (4fa897dc)
+2022-10-03T21:28:38.9088514+02:00  [ERR]     40     storageManager: LocalStoreManager,
+ (8362d782)
+2022-10-03T21:28:38.9119644+02:00  [ERR]                            ~~~~~~~~~~~~~~~~~
+ (29213dd0)
+2022-10-03T21:28:38.9152125+02:00  [ERR]     This type could not be resolved.
+ (11be5e24)
+2022-10-03T21:28:38.9178199+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:41:28 - error TS2304: Cannot find name 'ToastaService'.
+ (959fa3b2)
+2022-10-03T21:28:38.9216160+02:00  [ERR] 41     private toastaService: ToastaService,
+ (1a5c5ea0)
+2022-10-03T21:28:38.9266174+02:00  [ERR]                               ~~~~~~~~~~~~~
+ (8bf65db9)
+2022-10-03T21:28:38.9298506+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:42:27 - error TS2304: Cannot find name 'ToastaConfig'.
+ (c6b092ba)
+2022-10-03T21:28:38.9326106+02:00  [ERR] 42     private toastaConfig: ToastaConfig,
+ (eef46da6)
+2022-10-03T21:28:38.9357458+02:00  [ERR]                              ~~~~~~~~~~~~
+ (f3e34fd8)
+2022-10-03T21:28:38.9415517+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:43:29 - error TS2304: Cannot find name 'AccountService'.
+ (21d03639)
+2022-10-03T21:28:38.9461338+02:00  [ERR] 43     private accountService: AccountService,
+ (b130e6bd)
+2022-10-03T21:28:38.9491006+02:00  [ERR]                                ~~~~~~~~~~~~~~
+ (ac45db8a)
+2022-10-03T21:28:38.9527813+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:44:27 - error TS2304: Cannot find name 'AlertService'.
+ (445ada0e)
+2022-10-03T21:28:38.9588432+02:00  [ERR] 44     private alertService: AlertService,
+ (dae7a4ab)
+2022-10-03T21:28:38.9624664+02:00  [ERR]                              ~~~~~~~~~~~~
+ (f3e34fd8)
+2022-10-03T21:28:38.9658179+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:45:34 - error TS2304: Cannot find name 'NotificationService'.
+ (c0573f74)
+2022-10-03T21:28:38.9689985+02:00  [ERR] 45     private notificationService: NotificationService,
+ (23a586df)
+2022-10-03T21:28:38.9746522+02:00  [ERR]                                     ~~~~~~~~~~~~~~~~~~~
+ (f4661f70)
+2022-10-03T21:28:38.9774712+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:46:30 - error TS2304: Cannot find name 'AppTitleService'.
+ (690042fc)
+2022-10-03T21:28:38.9806227+02:00  [ERR] 46     private appTitleService: AppTitleService,
+ (4f6d1ca7)
+2022-10-03T21:28:38.9845341+02:00  [ERR]                                 ~~~~~~~~~~~~~~~
+ (761c838a)
+2022-10-03T21:28:38.9904649+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:47:26 - error TS2304: Cannot find name 'AuthService'.
+ (db959f05)
+2022-10-03T21:28:38.9934873+02:00  [ERR] 47     private authService: AuthService,
+ (01fb4283)
+2022-10-03T21:28:38.9969521+02:00  [ERR]                             ~~~~~~~~~~~
+ (0dbb378c)
+2022-10-03T21:28:38.9998982+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:48:33 - error TS2304: Cannot find name 'AppTranslationService'.
+ (14fb3087)
+2022-10-03T21:28:39.0056632+02:00  [ERR] 48     private translationService: AppTranslationService,
+ (aafb58b8)
+2022-10-03T21:28:39.0129954+02:00  [ERR]                                    ~~~~~~~~~~~~~~~~~~~~~
+ (24af74c3)
+2022-10-03T21:28:39.0175049+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:49:28 - error TS2304: Cannot find name 'ConfigurationService'.
+ (ec6a85b8)
+2022-10-03T21:28:39.0246196+02:00  [ERR] 49     public configurations: ConfigurationService,
+ (a7c1a4c1)
+2022-10-03T21:28:39.0281992+02:00  [ERR]                               ~~~~~~~~~~~~~~~~~~~~
+ (9c97db8b)
+2022-10-03T21:28:39.0314086+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:50:20 - error TS2304: Cannot find name 'Router'.
+ (fd350cd2)
+2022-10-03T21:28:39.0362243+02:00  [ERR] 50     public router: Router) {
+ (999f9b54)
+2022-10-03T21:28:39.0406431+02:00  [ERR]                       ~~~~~~
+ (86a77f63)
+2022-10-03T21:28:39.0441259+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:66:58 - error TS2304: Cannot find name 'QueryList'.
+ (30eb79a7)
+2022-10-03T21:28:39.0476638+02:00  [ERR] 66     this.modalLoginControls.changes.subscribe((controls: QueryList<any>) => {
+ (73645253)
+2022-10-03T21:28:39.0520240+02:00  [ERR]                                                             ~~~~~~~~~
+ (d636ae62)
+2022-10-03T21:28:39.0565952+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:69:34 - error TS2304: Cannot find name 'LoginComponent'.
+ (bfb8cf21)
+2022-10-03T21:28:39.0597094+02:00  [ERR] 69           if (control instanceof LoginComponent) {
+ (0621e9d1)
+2022-10-03T21:28:39.0630400+02:00  [ERR]                                     ~~~~~~~~~~~~~~
+ (7be7ea8a)
+2022-10-03T21:28:39.0679465+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:83:109 - error TS2304: Cannot find name 'MessageSeverity'.
+ (b6d40b3d)
+2022-10-03T21:28:39.0728993+02:00  [ERR] 83     this.alertService.showStickyMessage('Session Expired', 'Your Session has expired. Please log in again', MessageSeverity.info);
+ (f87a54cf)
+2022-10-03T21:28:39.0759023+02:00  [ERR]                                                                                                                ~~~~~~~~~~~~~~~
+ (840d505d)
+2022-10-03T21:28:39.0794800+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:93:133 - error TS2304: Cannot find name 'MessageSeverity'.
+ (ea853a9e)
+2022-10-03T21:28:39.0834609+02:00  [ERR] 93       this.alertService.showStickyMessage('Session Expired', 'Your Session has expired. Please log in again to renew your session', MessageSeverity.warn);
+ (0f85b897)
+2022-10-03T21:28:39.0878944+02:00  [ERR]                                                                                                                                        ~~~~~~~~~~~~~~~
+ (c09bc7f9)
+2022-10-03T21:28:47.5039467+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:216:5 - error TS2304: Cannot find name 'alertify'.
+ (0e4feb35)
+2022-10-03T21:28:47.5081876+02:00  [ERR] 216     alertify.set({
+ (b22a59ea)
+2022-10-03T21:28:47.5116955+02:00  [ERR]         ~~~~~~~~
+ (f15ac4ec)
+2022-10-03T21:28:47.5218630+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:225:9 - error TS2304: Cannot find name 'alertify'.
+ (f3174b7f)
+2022-10-03T21:28:47.5273760+02:00  [ERR] 225         alertify.alert(dialog.message);
+ (96604a11)
+2022-10-03T21:28:47.5319521+02:00  [ERR]             ~~~~~~~~
+ (839e20f4)
+2022-10-03T21:28:47.5396419+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:229:9 - error TS2304: Cannot find name 'alertify'.
+ (ce8ac744)
+2022-10-03T21:28:47.5425959+02:00  [ERR] 229         alertify
+ (96673f27)
+2022-10-03T21:28:47.5567308+02:00  [ERR]             ~~~~~~~~
+ (839e20f4)
+2022-10-03T21:28:47.5603978+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:242:9 - error TS2304: Cannot find name 'alertify'.
+ (24c5954a)
+2022-10-03T21:28:47.5719114+02:00  [ERR] 242         alertify
+ (0cf871bd)
+2022-10-03T21:28:47.5764628+02:00  [ERR]             ~~~~~~~~
+ (839e20f4)
+2022-10-03T21:29:18.5753779+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:218:5 - error TS2304: Cannot find name 'alertify'.
+ (5df3a9ff)
+2022-10-03T21:29:18.5863721+02:00  [ERR] 218     alertify.set({
+ (6c7fb49b)
+2022-10-03T21:29:18.5897349+02:00  [ERR]         ~~~~~~~~
+ (f15ac4ec)
+2022-10-03T21:29:18.5930256+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:227:9 - error TS2304: Cannot find name 'alertify'.
+ (17a7b938)
+2022-10-03T21:29:18.5962297+02:00  [ERR] 227         alertify.alert(dialog.message);
+ (69ce0f25)
+2022-10-03T21:29:18.6019796+02:00  [ERR]             ~~~~~~~~
+ (839e20f4)
+2022-10-03T21:29:18.6051204+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:231:9 - error TS2304: Cannot find name 'alertify'.
+ (ad120adc)
+2022-10-03T21:29:18.6083604+02:00  [ERR] 231         alertify
+ (52ea2ad6)
+2022-10-03T21:29:18.6113839+02:00  [ERR]             ~~~~~~~~
+ (839e20f4)
+2022-10-03T21:29:18.6145190+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.ts:244:9 - error TS2304: Cannot find name 'alertify'.
+ (1963ec35)
+2022-10-03T21:29:18.6183542+02:00  [ERR] 244         alertify
+ (2e036d72)
+2022-10-03T21:29:18.6213455+02:00  [ERR]             ~~~~~~~~
+ (839e20f4)
+2022-10-03T21:29:20.9486507+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.ts
+ (023cd9c1)
+2022-10-03T21:29:20.9536850+02:00  [ERR] Module not found: Error: Can't resolve '../assets/scripts/alertify.js' in 'C:\Users\RitoVukela\source\repos\OnlineStore\OnlineStore\ClientApp\src\app\components\authenticated-layout'
+ (691e9dbb)
+2022-10-03T21:30:58.9720148+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.ts
+ (023cd9c1)
+2022-10-03T21:30:58.9904814+02:00  [ERR] Module not found: Error: Can't resolve '../assets/scripts/alertify.js' in 'C:\Users\RitoVukela\source\repos\OnlineStore\OnlineStore\ClientApp\src\app\components\authenticated-layout'
+ (691e9dbb)
+2022-10-03T21:35:54.1918905+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.scss
+ (7d91b0f0)
+2022-10-03T21:35:54.1968316+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-03T21:35:54.2027972+02:00  [ERR] SassError: Expected expression.
+ (d0468eff)
+2022-10-03T21:35:54.2058533+02:00  [ERR]   Γò╖
+ (8255cbe4)
+2022-10-03T21:35:54.2103831+02:00  [ERR] 2 Γöé     max-width: ;
+ (0b5e27c4)
+2022-10-03T21:35:54.2135160+02:00  [ERR]   Γöé                ^
+ (fe71be0d)
+2022-10-03T21:35:54.2185534+02:00  [ERR]   Γò╡
+ (8603d0c0)
+2022-10-03T21:35:54.2219627+02:00  [ERR]   src\app\components\authenticated-layout\authenticated-layout.component.scss 2:16  root stylesheet
+ (8a3e8312)
+2022-10-03T21:41:04.1697638+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.scss
+ (7d91b0f0)
+2022-10-03T21:41:04.1779367+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-03T21:41:04.1818314+02:00  [ERR] SassError: Expected expression.
+ (d0468eff)
+2022-10-03T21:41:04.1941792+02:00  [ERR]   Γò╖
+ (8255cbe4)
+2022-10-03T21:41:04.1980034+02:00  [ERR] 6 Γöé     margin-top:
+ (413a37ab)
+2022-10-03T21:41:04.2017502+02:00  [ERR]   Γöé                ^
+ (fe71be0d)
+2022-10-03T21:41:04.2044798+02:00  [ERR]   Γò╡
+ (8603d0c0)
+2022-10-03T21:41:04.2156084+02:00  [ERR]   src\app\components\authenticated-layout\authenticated-layout.component.scss 6:16  root stylesheet
+ (800e735c)
+2022-10-03T21:48:48.0974411+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.scss
+ (7d91b0f0)
+2022-10-03T21:48:48.1047552+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-03T21:48:48.1083167+02:00  [ERR] SassError: expected "{".
+ (313a0a51)
+2022-10-03T21:48:48.1299569+02:00  [ERR]    Γò╖
+ (e2d5f20e)
+2022-10-03T21:48:48.1901116+02:00  [ERR] 10 Γöé .b
+ (3d313176)
+2022-10-03T21:48:48.2064610+02:00  [ERR]    Γöé   ^
+ (ba137939)
+2022-10-03T21:48:48.2094749+02:00  [ERR]    Γò╡
+ (32652d67)
+2022-10-03T21:48:48.2159372+02:00  [ERR]   src\app\components\authenticated-layout\authenticated-layout.component.scss 10:3  root stylesheet
+ (0a52590f)
+2022-10-03T21:51:16.0081780+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.scss
+ (7d91b0f0)
+2022-10-03T21:51:16.0116614+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-03T21:51:16.0159752+02:00  [ERR] SassError: expected "{".
+ (313a0a51)
+2022-10-03T21:51:16.0196494+02:00  [ERR]    Γò╖
+ (e2d5f20e)
+2022-10-03T21:51:16.0240207+02:00  [ERR] 15 Γöé .nav
+ (c8d54dc1)
+2022-10-03T21:51:16.0272887+02:00  [ERR]    Γöé     ^
+ (57fb6e41)
+2022-10-03T21:51:16.0316112+02:00  [ERR]    Γò╡
+ (32652d67)
+2022-10-03T21:51:16.0373373+02:00  [ERR]   src\app\components\authenticated-layout\authenticated-layout.component.scss 15:5  root stylesheet
+ (a112dcdc)
+2022-10-03T21:51:18.4748433+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.scss
+ (7d91b0f0)
+2022-10-03T21:51:18.9988873+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-03T21:51:19.3172398+02:00  [ERR] SassError: expected "{".
+ (313a0a51)
+2022-10-03T21:51:19.4006485+02:00  [ERR]    Γò╖
+ (e2d5f20e)
+2022-10-03T21:51:19.4070463+02:00  [ERR] 15 Γöé .nav-link
+ (9c3023e2)
+2022-10-03T21:51:19.4136427+02:00  [ERR]    Γöé          ^
+ (3c0a716c)
+2022-10-03T21:51:19.4177731+02:00  [ERR]    Γò╡
+ (32652d67)
+2022-10-03T21:51:19.4236796+02:00  [ERR]   src\app\components\authenticated-layout\authenticated-layout.component.scss 15:10  root stylesheet
+ (b810e8f1)
+2022-10-03T21:51:31.3668363+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.scss
+ (7d91b0f0)
+2022-10-03T21:51:31.3748038+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-03T21:51:31.3789510+02:00  [ERR] SassError: Expected expression.
+ (d0468eff)
+2022-10-03T21:51:31.3850151+02:00  [ERR]    Γò╖
+ (e2d5f20e)
+2022-10-03T21:51:31.4347065+02:00  [ERR] 16 Γöé     color: 
+ (aebbbc36)
+2022-10-03T21:51:31.4387335+02:00  [ERR]    Γöé            ^
+ (2f0ba055)
+2022-10-03T21:51:31.4447617+02:00  [ERR]    Γò╡
+ (32652d67)
+2022-10-03T21:51:31.4526649+02:00  [ERR]   src\app\components\authenticated-layout\authenticated-layout.component.scss 16:12  root stylesheet
+ (10ce1bca)
+2022-10-03T22:46:11.2818053+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.scss
+ (7d91b0f0)
+2022-10-03T22:46:11.2903188+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-03T22:46:11.2985052+02:00  [ERR] SassError: expected ")".
+ (8b9b9040)
+2022-10-03T22:46:11.3073255+02:00  [ERR]    Γò╖
+ (e2d5f20e)
+2022-10-03T22:46:11.3139797+02:00  [ERR] 15 Γöé     min-height: calc(100vh !important;
+ (3388ceb2)
+2022-10-03T22:46:11.3224748+02:00  [ERR]    Γöé                                      ^
+ (929950c3)
+2022-10-03T22:46:11.3302433+02:00  [ERR]    Γò╡
+ (32652d67)
+2022-10-03T22:46:11.3390519+02:00  [ERR]   src\app\components\authenticated-layout\authenticated-layout.component.scss 15:38  root stylesheet
+ (32aac859)
+2022-10-03T22:46:14.3565747+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.scss
+ (7d91b0f0)
+2022-10-03T22:46:14.5816415+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-03T22:46:14.6016694+02:00  [ERR] SassError: expected ")".
+ (8b9b9040)
+2022-10-03T22:46:14.6477602+02:00  [ERR]    Γò╖
+ (e2d5f20e)
+2022-10-03T22:46:14.6635879+02:00  [ERR] 15 Γöé     min-height: calc(100vh -!important;
+ (a49d53f2)
+2022-10-03T22:46:14.7027263+02:00  [ERR]    Γöé                                       ^
+ (de641dc9)
+2022-10-03T22:46:14.7223990+02:00  [ERR]    Γò╡
+ (32652d67)
+2022-10-03T22:46:14.7403786+02:00  [ERR]   src\app\components\authenticated-layout\authenticated-layout.component.scss 15:39  root stylesheet
+ (5f6367ee)
+2022-10-03T22:46:19.3839758+02:00  [ERR] Error: ./src/app/components/authenticated-layout/authenticated-layout.component.scss
+ (7d91b0f0)
+2022-10-03T22:46:19.4223059+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-03T22:46:19.4416199+02:00  [ERR] SassError: expected ")".
+ (8b9b9040)
+2022-10-03T22:46:20.1415615+02:00  [ERR]    Γò╖
+ (e2d5f20e)
+2022-10-03T22:46:20.9922716+02:00  [ERR] 15 Γöé     min-height: calc(100vh -80px!important;
+ (41cad896)
+2022-10-03T22:46:21.1040336+02:00  [ERR]    Γöé                                           ^
+ (7d66b13c)
+2022-10-03T22:46:21.1100309+02:00  [ERR]    Γò╡
+ (32652d67)
+2022-10-03T22:46:21.1861079+02:00  [ERR]   src\app\components\authenticated-layout\authenticated-layout.component.scss 15:43  root stylesheet
+ (48f22225)
+2022-10-03T22:50:01.2257520+02:00  [ERR] Error: src/app/components/authenticated-layout/authenticated-layout.component.html:80:17 - error NG5002: Opening tag "hr" not terminated.
+ (26cebf36)
+2022-10-03T22:50:01.2358678+02:00  [ERR] 80                 <hr
+ (7e8f16b8)
+2022-10-03T22:50:01.2428944+02:00  [ERR]                    ~~~
+ (a557d261)
+2022-10-03T22:50:01.2555948+02:00  [ERR] 81                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+ (5397c621)
+2022-10-03T22:50:01.2850677+02:00  [ERR]    ~~~~~~~~~~~~~~~~
+ (27953882)
+2022-10-03T22:50:01.3054389+02:00  [ERR]   src/app/components/authenticated-layout/authenticated-layout.component.ts:20:16
+ (f952ae7e)
+2022-10-03T22:50:01.3295224+02:00  [ERR]     20   templateUrl: './authenticated-layout.component.html',
+ (6662aee6)
+2022-10-03T22:50:01.3351182+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (84555001)
+2022-10-03T22:50:01.3492683+02:00  [ERR]     Error occurs in the template of component AuthenticatedLayoutComponent.
+ (7d896d6f)
+2022-10-03T23:17:23.9059209+02:00  [ERR] Error: src/app/components/customers/customers.component.html:22:31 - error NG8001: 'from' is not a known element:
+ (8063173c)
+2022-10-03T23:17:23.9177786+02:00  [ERR] 1. If 'from' is an Angular component, then verify that it is part of this module.
+ (9526970f)
+2022-10-03T23:17:23.9307420+02:00  [ERR] 2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+ (05832ae3)
+2022-10-03T23:17:23.9357099+02:00  [ERR] 22                               <from class="form-horizontal">
+ (0d7d542d)
+2022-10-03T23:17:23.9443194+02:00  [ERR]                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (7494ba07)
+2022-10-03T23:17:23.9495499+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:17:23.9568710+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:17:23.9639605+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:17:23.9696533+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:17:23.9793206+02:00  [ERR] Error: src/app/components/customers/customers.component.html:73:43 - error NG8001: 'from' is not a known element:
+ (1b481bf7)
+2022-10-03T23:17:23.9853721+02:00  [ERR] 1. If 'from' is an Angular component, then verify that it is part of this module.
+ (9526970f)
+2022-10-03T23:17:23.9971255+02:00  [ERR] 2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+ (05832ae3)
+2022-10-03T23:17:24.0040632+02:00  [ERR] 73                                           <from class="form-horizontal form-material">
+ (9a27f1f7)
+2022-10-03T23:17:24.0133918+02:00  [ERR]                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (39231037)
+2022-10-03T23:17:24.0203662+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:17:24.0277446+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:17:24.0370813+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:17:24.0458866+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:17:40.9125006+02:00  [ERR] Error: src/app/components/customers/customers.component.html:24:43 - error NG8001: 'from' is not a known element:
+ (a21a8269)
+2022-10-03T23:17:40.9514555+02:00  [ERR] 1. If 'from' is an Angular component, then verify that it is part of this module.
+ (9526970f)
+2022-10-03T23:17:41.3611669+02:00  [ERR] 2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+ (05832ae3)
+2022-10-03T23:17:41.5876977+02:00  [ERR] 24                                           <from class="form-horizontal form-material">
+ (17913791)
+2022-10-03T23:17:41.7103392+02:00  [ERR]                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (39231037)
+2022-10-03T23:17:41.7428521+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:17:41.7585047+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:17:41.7683047+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:17:41.7776664+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:14.9699473+02:00  [ERR] Error: src/app/components/customers/customers.component.html:295:11 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (6466fc68)
+2022-10-03T23:18:15.0033284+02:00  [ERR] 295           </div>
+ (761eeaa2)
+2022-10-03T23:18:15.0135393+02:00  [ERR]               ~~~~~~
+ (ed6f5460)
+2022-10-03T23:18:15.0272581+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:15.0331283+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:15.0434193+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:15.0574373+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:15.0625333+02:00  [ERR] Error: src/app/components/customers/customers.component.html:297:7 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (5f95d5b5)
+2022-10-03T23:18:15.1191530+02:00  [ERR] 297       </div>
+ (a35df1db)
+2022-10-03T23:18:15.1251288+02:00  [ERR]           ~~~~~~
+ (9acdc686)
+2022-10-03T23:18:15.1373200+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:15.1426772+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:15.1686157+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:15.1756198+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:15.1943382+02:00  [ERR] Error: src/app/components/customers/customers.component.html:299:3 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (358a6b5e)
+2022-10-03T23:18:15.2035636+02:00  [ERR] 299   </div>
+ (a6e1f1b6)
+2022-10-03T23:18:15.2136874+02:00  [ERR]       ~~~~~~
+ (290efc08)
+2022-10-03T23:18:15.2291210+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:15.2447867+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:15.2570020+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:15.2692692+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:15.2770699+02:00  [ERR] Error: src/app/components/customers/customers.component.html:300:1 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (968ee210)
+2022-10-03T23:18:15.2927377+02:00  [ERR] 300 </div>
+ (8caddf3c)
+2022-10-03T23:18:15.3025288+02:00  [ERR]     ~~~~~~
+ (6307985b)
+2022-10-03T23:18:15.3535372+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:15.3600275+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:15.3761253+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:15.3896823+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:15.4069091+02:00  [ERR] Error: src/app/components/customers/customers.component.html:45:43 - error NG5002: Unexpected closing tag "from". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (072b7238)
+2022-10-03T23:18:15.4214166+02:00  [ERR] 45                                           </from>
+ (43a8c34e)
+2022-10-03T23:18:15.4357753+02:00  [ERR]                                              ~~~~~~~
+ (aa9c6074)
+2022-10-03T23:18:15.4432895+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:15.4544058+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:15.4633921+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:15.4760616+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:15.4839372+02:00  [ERR] Error: src/app/components/customers/customers.component.html:46:39 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (0a1aa4e9)
+2022-10-03T23:18:15.4941998+02:00  [ERR] 46                                       </div>
+ (43e5d376)
+2022-10-03T23:18:15.5020785+02:00  [ERR]                                          ~~~~~~
+ (37c326fc)
+2022-10-03T23:18:15.9187834+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:16.2441477+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:16.6608795+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:16.9134158+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:17.5879105+02:00  [ERR] Error: src/app/components/customers/customers.component.html:51:35 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (e4625f15)
+2022-10-03T23:18:18.6547718+02:00  [ERR] 51                                   </div>
+ (2114b380)
+2022-10-03T23:18:18.7318989+02:00  [ERR]                                      ~~~~~~
+ (4fbe5000)
+2022-10-03T23:18:18.9509976+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:19.2075801+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:19.5223571+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:19.7264128+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:20.3842815+02:00  [ERR] Error: src/app/components/customers/customers.component.html:53:31 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (a5734ba3)
+2022-10-03T23:18:20.5274087+02:00  [ERR] 53                               </div>
+ (7c458168)
+2022-10-03T23:18:20.5432554+02:00  [ERR]                                  ~~~~~~
+ (d42355c0)
+2022-10-03T23:18:20.5615856+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:20.5771715+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:20.5981231+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:20.6081700+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:20.7028701+02:00  [ERR] Error: src/app/components/customers/customers.component.html:55:27 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (e0feebfd)
+2022-10-03T23:18:20.9760640+02:00  [ERR] 55                           </div><table id="demo-foo-addrow" class="table m-t-30 table-hover no-wrap contact-list footable-loaded footable" data-page-size="10">
+ (c829ab93)
+2022-10-03T23:18:21.1437785+02:00  [ERR]                              ~~~~~~
+ (39326d2a)
+2022-10-03T23:18:21.2536940+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:21.4893533+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:21.5740313+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:21.5918176+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:21.6415618+02:00  [ERR] Error: src/app/components/customers/customers.component.html:295:11 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (6466fc68)
+2022-10-03T23:18:21.6556781+02:00  [ERR] 295           </div>
+ (761eeaa2)
+2022-10-03T23:18:21.6614428+02:00  [ERR]               ~~~~~~
+ (ed6f5460)
+2022-10-03T23:18:21.6921660+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:21.8022575+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:21.9007277+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:21.9541939+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:21.9804099+02:00  [ERR] Error: src/app/components/customers/customers.component.html:297:7 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (5f95d5b5)
+2022-10-03T23:18:22.1965321+02:00  [ERR] 297       </div>
+ (a35df1db)
+2022-10-03T23:18:22.3212317+02:00  [ERR]           ~~~~~~
+ (9acdc686)
+2022-10-03T23:18:22.3518629+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:22.3658344+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:22.4629693+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:22.5078183+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:22.5297269+02:00  [ERR] Error: src/app/components/customers/customers.component.html:299:3 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (358a6b5e)
+2022-10-03T23:18:22.5498301+02:00  [ERR] 299   </div>
+ (a6e1f1b6)
+2022-10-03T23:18:22.5726695+02:00  [ERR]       ~~~~~~
+ (290efc08)
+2022-10-03T23:18:22.5862431+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:22.6021604+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:22.6166245+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:22.6392596+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:22.6715549+02:00  [ERR] Error: src/app/components/customers/customers.component.html:300:1 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (968ee210)
+2022-10-03T23:18:22.6872959+02:00  [ERR] 300 </div>
+ (8caddf3c)
+2022-10-03T23:18:22.6963320+02:00  [ERR]     ~~~~~~
+ (6307985b)
+2022-10-03T23:18:22.7059659+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:22.7189297+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:22.7247674+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:22.7440758+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:22.7594699+02:00  [ERR] Error: src/app/components/customers/customers.component.html:45:43 - error NG5002: Unexpected closing tag "fom". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (8b1be33a)
+2022-10-03T23:18:22.7763520+02:00  [ERR] 45                                           </fom>
+ (11e28aab)
+2022-10-03T23:18:22.8185802+02:00  [ERR]                                              ~~~~~~
+ (41ba5c8d)
+2022-10-03T23:18:22.8374938+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:22.9073496+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:22.9239074+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:22.9354638+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:22.9413971+02:00  [ERR] Error: src/app/components/customers/customers.component.html:46:39 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (0a1aa4e9)
+2022-10-03T23:18:22.9538334+02:00  [ERR] 46                                       </div>
+ (43e5d376)
+2022-10-03T23:18:22.9636856+02:00  [ERR]                                          ~~~~~~
+ (37c326fc)
+2022-10-03T23:18:22.9702627+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16m
+ (ea8249d2)
+2022-10-03T23:18:22.9771785+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:22.9876058+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:22.9942414+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:23.1019838+02:00  [ERR] Error: src/app/components/customers/customers.component.html:51:35 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (e4625f15)
+2022-10-03T23:18:23.2018852+02:00  [ERR] 51                                   </div>
+ (2114b380)
+2022-10-03T23:18:23.2076540+02:00  [ERR]                                      ~~~~~~
+ (4fbe5000)
+2022-10-03T23:18:23.2235809+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:23.2336468+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:23.2394719+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:23.2489284+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:23.2543560+02:00  [ERR] Error: src/app/components/customers/customers.component.html:53:31 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (a5734ba3)
+2022-10-03T23:18:23.2653299+02:00  [ERR] 53                               </div>
+ (7c458168)
+2022-10-03T23:18:23.2809249+02:00  [ERR]                                  ~~~~~~
+ (d42355c0)
+2022-10-03T23:18:23.2969757+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:23.3121961+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:23.3259938+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:23.3373290+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)
+2022-10-03T23:18:23.3520256+02:00  [ERR] Error: src/app/components/customers/customers.component.html:55:27 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+ (e0feebfd)
+2022-10-03T23:18:23.3751862+02:00  [ERR] 55                           </div><table id="demo-foo-addrow" class="table m-t-30 table-hover no-wrap contact-list footable-loaded footable" data-page-size="10">
+ (c829ab93)
+2022-10-03T23:18:23.3903732+02:00  [ERR]                              ~~~~~~
+ (39326d2a)
+2022-10-03T23:18:23.4229196+02:00  [ERR]   src/app/components/customers/customers.component.ts:12:16
+ (c7f2bbc5)
+2022-10-03T23:18:23.4514464+02:00  [ERR]     12   templateUrl: './customers.component.html',
+ (b3a7181b)
+2022-10-03T23:18:23.4591626+02:00  [ERR]                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ (eabce241)
+2022-10-03T23:18:23.4674081+02:00  [ERR]     Error occurs in the template of component CustomersComponent.
+ (42d91da0)

@@ -1,0 +1,85 @@
+2021-07-29T15:11:38.6600558+02:00  [INF] Generating inbuilt accounts (d5983574)
+2021-07-29T15:11:42.1471934+02:00  [INF] Inbuilt account generation completed (a663d88d)
+2021-07-29T15:11:42.1833901+02:00  [INF] Seeding initial data (13b66d8a)
+2021-07-29T15:11:42.2204756+02:00  [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results. (f43d926b)
+2021-07-29T15:11:43.5097353+02:00  [INF] Seeding initial data completed (dcd778dd)
+2021-07-29T15:11:44.2851378+02:00  [INF] Starting IdentityServer4 version "4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e" (8add0571)
+2021-07-29T15:11:44.3484420+02:00  [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. (553c312b)
+2021-07-29T15:11:44.3706254+02:00  [INF] Using the default authentication scheme "Identity.Application" for IdentityServer (4a54f457)
+2021-07-29T15:11:53.5615456+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-07-29T15:11:54.0831519+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-07-29T15:11:54.3669920+02:00  [INF] Content root path: "C:\Users\RitoVukela\source\repos\OnlineStore\OnlineStore" (b5d60022)
+2021-07-29T15:13:20.1615383+02:00  [ERR] Compiling @angular/core : es2015 as esm2015
+ (5acd4031)
+2021-07-29T15:13:22.3854664+02:00  [ERR] Compiling @angular/animations : es2015 as esm2015
+ (9c30a060)
+2021-07-29T15:14:14.5591030+02:00  [ERR] Compiling @angular/common : es2015 as esm2015
+ (ebfa3907)
+2021-07-29T15:14:18.6911892+02:00  [ERR] Compiling ngx-bootstrap/utils : es2015 as esm2015
+ (492f6370)
+2021-07-29T15:14:20.7072454+02:00  [ERR] Compiling @angular/animations/browser : es2015 as esm2015
+ (588153d4)
+2021-07-29T15:14:27.4507865+02:00  [ERR] Compiling ngx-bootstrap/positioning : es2015 as esm2015
+ (dcb442f5)
+2021-07-29T15:14:30.0082676+02:00  [ERR] Compiling @angular/platform-browser : es2015 as esm2015
+ (a01bc7a9)
+2021-07-29T15:14:31.4951339+02:00  [ERR] Compiling ngx-bootstrap/component-loader : es2015 as esm2015
+ (476fc570)
+2021-07-29T15:14:34.4728516+02:00  [ERR] Compiling @angular/common/http : es2015 as esm2015
+ (934ad769)
+2021-07-29T15:14:36.4001069+02:00  [ERR] Compiling @angular/forms : es2015 as esm2015
+ (a5e7a4d2)
+2021-07-29T15:14:42.7969804+02:00  [ERR] Compiling @angular/platform-browser-dynamic : es2015 as esm2015
+ (00ea327c)
+2021-07-29T15:14:48.0153740+02:00  [ERR] Compiling @angular/platform-browser/animations : es2015 as esm2015
+ (8689353d)
+2021-07-29T15:14:51.1657608+02:00  [ERR] Compiling @ngx-translate/core : es2015 as esm2015
+ (fb8db328)
+2021-07-29T15:14:53.1710724+02:00  [ERR] Compiling @swimlane/ngx-datatable : es2015 as esm2015
+ (de94b4fb)
+2021-07-29T15:14:57.4231473+02:00  [ERR] Compiling angular-oauth2-oidc : es2015 as esm2015
+ (cf00f9fd)
+2021-07-29T15:15:02.2242290+02:00  [ERR] Compiling ngx-toasta : es2015 as esm2015
+ (74510f6e)
+2021-07-29T15:15:04.8810577+02:00  [ERR] Compiling @ng-select/ng-select : es2015 as esm2015
+ (9cf45cc3)
+2021-07-29T15:15:07.3084292+02:00  [ERR] Compiling ngx-bootstrap/modal : es2015 as esm2015
+ (ca2802c3)
+2021-07-29T15:15:11.5926428+02:00 80000005-0000-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 180 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29T15:15:12.5328809+02:00  [ERR] Compiling ngx-bootstrap/tooltip : es2015 as esm2015
+ (1826e0e6)
+2021-07-29T15:15:16.4386917+02:00  [ERR] Compiling ngx-bootstrap/popover : es2015 as esm2015
+ (0740364c)
+2021-07-29T15:15:18.0160613+02:00  [ERR] Compiling ngx-bootstrap/dropdown : es2015 as esm2015
+ (a173ec35)
+2021-07-29T15:15:18.9829088+02:00  [ERR] Compiling ngx-bootstrap/carousel : es2015 as esm2015
+ (38bd2f63)
+2021-07-29T15:15:20.7665185+02:00  [ERR] Compiling ng2-charts : es2015 as esm2015
+ (24251a2c)
+2021-07-29T15:15:22.8556750+02:00  [ERR] Compiling @angular/router : es2015 as esm2015
+ (ede1c3a1)
+2021-07-29T18:48:25.4324032+02:00  [INF] Starting IdentityServer4 version "4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e" (8add0571)
+2021-07-29T18:48:25.5108353+02:00  [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. (553c312b)
+2021-07-29T18:48:25.5546734+02:00  [INF] Using the default authentication scheme "Identity.Application" for IdentityServer (4a54f457)
+2021-07-29T18:48:26.2107875+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-07-29T18:48:26.2368601+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-07-29T18:48:26.2416113+02:00  [INF] Content root path: "C:\Users\RitoVukela\source\repos\OnlineStore\OnlineStore" (b5d60022)
+2021-07-29T21:05:45.0875721+02:00  [INF] Starting IdentityServer4 version "4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e" (8add0571)
+2021-07-29T21:05:45.1445533+02:00  [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. (553c312b)
+2021-07-29T21:05:45.1606206+02:00  [INF] Using the default authentication scheme "Identity.Application" for IdentityServer (4a54f457)
+2021-07-29T21:05:45.8536622+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-07-29T21:05:45.8602029+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-07-29T21:05:45.8731700+02:00  [INF] Content root path: "C:\Users\RitoVukela\source\repos\OnlineStore\OnlineStore" (b5d60022)

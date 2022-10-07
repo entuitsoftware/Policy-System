@@ -1,0 +1,35 @@
+2022-10-04T22:19:35.4493133+02:00  [WRN] No type was specified for the decimal property '"Discount"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'. (5c92c1c4)
+2022-10-04T22:19:35.4752656+02:00  [WRN] No type was specified for the decimal property '"UnitPrice"' on entity type '"OrderDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'. (5c92c1c4)
+2022-10-04T22:19:50.7349788+02:00  [INF] Starting IdentityServer4 version "4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e" (8add0571)
+2022-10-04T22:19:50.7915507+02:00  [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. (553c312b)
+2022-10-04T22:19:50.8226571+02:00  [INF] Using the default authentication scheme "Identity.Application" for IdentityServer (4a54f457)
+2022-10-04T22:19:52.1445948+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-10-04T22:19:52.1527195+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-10-04T22:19:52.2205923+02:00  [INF] Content root path: "C:\Users\RitoVukela\source\repos\OnlineStore\OnlineStore" (b5d60022)
+2022-10-04T22:25:23.2999688+02:00 80000167-0003-fc00-b63f-84710c7967bb [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration" (f7642de5)
+2022-10-04T22:25:23.6521358+02:00 80000051-0002-f000-b63f-84710c7967bb [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryKeyEndpoint" for "/.well-known/openid-configuration/jwks" (f7642de5)
+2022-10-04T22:25:23.9039188+02:00 8000008a-0001-f100-b63f-84710c7967bb [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.TokenEndpoint" for "/connect/token" (f7642de5)
+2022-10-04T22:25:25.1721164+02:00 8000008a-0001-f100-b63f-84710c7967bb [INF] Credentials validated for username: "admin" (cb811aa7)
+2022-10-04T22:25:25.3472910+02:00 8000008a-0001-f100-b63f-84710c7967bb [INF] Token request validation success, TokenRequestValidationLog { ClientId: "quickapp_spa", ClientName: null, GrantType: "password", Scopes: "email offline_access openid phone profile quickapp_api roles", AuthorizationCode: "********", RefreshToken: "********", UserName: "admin", AuthenticationContextReferenceClasses: null, Tenant: null, IdP: null, Raw: [("username": "admin"), ("password": "***REDACTED***"), ("client_id": "quickapp_spa"), ("grant_type": "password"), ("scope": "openid email phone profile offline_access roles quickapp_api")] } (3a073258)
+2022-10-04T22:36:25.5551506+02:00  [ERR] Error: ./src/app/components/customers/customers.component.scss
+ (75782db4)
+2022-10-04T22:36:27.9747538+02:00  [ERR] Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+ (db9ba5d3)
+2022-10-04T22:36:28.9357528+02:00  [ERR] SassError: expected "{".
+ (313a0a51)
+2022-10-04T22:36:35.2769389+02:00  [ERR]   Γò╖
+ (8255cbe4)
+2022-10-04T22:36:35.2993570+02:00  [ERR] 1 Γöé .contact-page
+ (2f747053)
+2022-10-04T22:36:35.3276168+02:00  [ERR]   Γöé              ^
+ (85f162bb)
+2022-10-04T22:36:35.3377245+02:00  [ERR]   Γò╡
+ (8603d0c0)
+2022-10-04T22:36:35.3510086+02:00  [ERR]   src\app\components\customers\customers.component.scss 1:14  root stylesheet
+ (360806d9)
+2022-10-04T22:55:25.1421815+02:00  [ERR] Error: src/app/app.module.ts:23:39 - error TS2307: Cannot find module '@ngx-formly/bootstrap' or its corresponding type declarations.
+ (1e59ef7c)
+2022-10-04T22:55:25.1663074+02:00  [ERR] 23 import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
+ (baccaf7e)
+2022-10-04T22:55:25.1746217+02:00  [ERR]                                          ~~~~~~~~~~~~~~~~~~~~~~~
+ (ee559208)
