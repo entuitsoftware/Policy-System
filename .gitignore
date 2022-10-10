@@ -303,3 +303,5 @@ __pycache__/
 # tools/
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,angular
+OnlineStore/obj/
+OnlineStore/bin/

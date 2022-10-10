@@ -16,7 +16,6 @@ namespace DAL.Models
         public string BranchCode { get; set; }
         public AccountType AccountType { get; set; }
 
-        [ForeignKey(nameof(CustomerId))]
         public Guid CustomerId { get; set; }
         public Customer Customer { get; set; }
     }

@@ -1,6 +1,7 @@
 ﻿using DAL.Core;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,8 @@ namespace DAL.Models
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int RefNumber {get;set;}
         public DateTime StartDate { get; set; }
         public Guid CustomerId { get; set; }
         public Customer Customer { get; set; }

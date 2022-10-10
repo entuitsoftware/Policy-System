@@ -48,6 +48,8 @@ namespace DAL
             builder.Entity<Customer>().Property(c => c.Email).HasMaxLength(100);
             builder.Entity<Customer>().Property(c => c.PhoneNumber).IsUnicode(false).HasMaxLength(30);
             builder.Entity<Customer>().Property(c => c.City).HasMaxLength(50);
+            builder.Entity<Customer>().HasOne(c => c.BankingDetail).WithOne(b => b.Customer).HasForeignKey<BankingDetail>(b => b.CustomerId)
+                .OnDelete(DeleteBehavior.Cascade);
             builder.Entity<Customer>().ToTable($"App{nameof(this.Customers)}");
 
             builder.Entity<ProductCategory>().Property(p => p.Name).IsRequired().HasMaxLength(100);
