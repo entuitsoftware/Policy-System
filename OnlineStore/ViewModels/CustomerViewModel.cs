@@ -3,6 +3,8 @@
 // www.ebenmonney.com/templates
 // =============================
 
+using DAL.Core;
+using DAL.Models;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
@@ -15,14 +17,18 @@ namespace OnlineStore.ViewModels
 {
     public class CustomerViewModel
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
+        public string Surname { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
+        public string IdNumber { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
-        public string Gender { get; set; }
-
+        public Gender Gender { get; set; }
+        public DateTime DateCreated { get; set; }
+        public DateTime DateModified { get; set; }
+        public ICollection<Policy> Policies { get; set; }
         public ICollection<OrderViewModel> Orders { get; set; }
     }
 

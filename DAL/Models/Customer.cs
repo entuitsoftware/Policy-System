@@ -15,8 +15,6 @@ namespace DAL.Models
     public class Customer : AuditableEntity
     {
         public Guid Id { get; set; }
-        public string UserId { get; set; }
-        public ApplicationUser User { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
@@ -24,10 +22,14 @@ namespace DAL.Models
         public string IdNumber { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
+        public string IdDocumentFileName { get; set; }
+        public DateTime DateOfBirth { get; set; }
         public Gender Gender { get; set; }
         public DateTime DateCreated { get; set; }
         public DateTime DateModified { get; set; }
         public ICollection<Policy> Policies { get; set; }
+        public Guid BankingDetailId { get; set; }
+        public BankingDetail BankingDetail { get; set; }
 
         public ICollection<Order> Orders { get; set; }
     }

@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DAL;
+using DAL.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,11 +13,16 @@ namespace OnlineStore.Controllers
     [ApiController]
     public class BankingDetailsController : ControllerBase
     {
+        private readonly ApplicationDbContext _dbContext;
+        public BankingDetailsController(ApplicationDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
         // GET: api/<BankingDetailsController>
         [HttpGet("GetAllForCustomer/{customerId}")]
-        public IEnumerable<string> GetAllForCustomer(Guid customerId)
+        public IEnumerable<BankingDetail> GetAllForCustomer(Guid customerId)
         {
-            return new string[] { "value1", "value2" };
+            return _dbContext.BankingDetails.Where(x => x.CustomerId == customerId);
         }
 
         // GET api/<BankingDetailsController>/5
@@ -26,8 +34,10 @@ namespace OnlineStore.Controllers
 
         // POST api/<BankingDetailsController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] BankingDetail value)
         {
+            _dbContext.BankingDetails.Add(value);
+            _dbContext.SaveChanges();
         }
 
         // PUT api/<BankingDetailsController>/5
